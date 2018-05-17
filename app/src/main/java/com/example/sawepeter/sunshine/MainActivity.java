@@ -7,9 +7,9 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    EditText mSearchBoxEditText;
-    TextView mUrlDisplayTextView;
-    TextView mSearchResultsTextView;
+    private EditText mSearchBoxEditText;
+    private TextView mUrlDisplayTextView;
+    private TextView mSearchResultsTextView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
