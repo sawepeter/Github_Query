@@ -2,6 +2,7 @@ package com.example.sawepeter.sunshine;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -19,5 +20,11 @@ public class MainActivity extends AppCompatActivity {
         mSearchBoxEditText = (EditText)findViewById(R.id.et_search_box);
         mUrlDisplayTextView = (TextView)findViewById(R.id.tv_url_display);
         mSearchResultsTextView = (TextView)findViewById(R.id.tv_github_search_results_json);
+    }
+    @Override
+    public boolean onCreatOptionsMenu(Menu menu){
+        getMenuInflater().inflate(R.menu.main,menu);
+
+        return true;
     }
 }
