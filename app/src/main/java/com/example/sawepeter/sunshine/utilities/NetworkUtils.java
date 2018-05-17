@@ -1,5 +1,7 @@
 package com.example.sawepeter.sunshine.utilities;
 
+import java.io.IOException;
+import java.net.HttpURLConnection;
 import java.net.URL;
 
 /**
@@ -16,5 +18,9 @@ public class NetworkUtils {
 
     public static URL buildUrl(String githubSearchQuery){
         return null;
+    }
+
+    public static String getResponseFromHttpUrl(URL url) throws IOException{
+        HttpURLConnection urlConnection = (HttpURLConnection)url.openConnection();
     }
 }
