@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Sunshine</string>
+    <string name="search_results">Search Results</string>
+    <string name="start_search">Start Search</string>
+    <string name="enter_name_to_search">Enter name to search</string>
 </resources>
