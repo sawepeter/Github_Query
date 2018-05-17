@@ -5,4 +5,5 @@ package com.example.sawepeter.sunshine.utilities;
  */
 
 public class NetworkUtils {
+    final static String GITHUB_BASE_URL = "https://api.github.com/search/repositories";
 }
