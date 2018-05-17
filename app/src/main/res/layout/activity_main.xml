@@ -24,4 +24,8 @@
         android:layout_marginTop="8dp"
         android:text="Search Results"/>
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ScrollView>
+
 </LinearLayout>
