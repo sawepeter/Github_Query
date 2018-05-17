@@ -2140,6 +2140,7 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f0b0045;
         public static final int action_mode_bar_stub=0x7f0b0044;
         public static final int action_mode_close_button=0x7f0b0027;
+        public static final int action_search=0x7f0b0071;
         public static final int action_text=0x7f0b005c;
         public static final int actions=0x7f0b006a;
         public static final int activity_chooser_view_content=0x7f0b0028;
@@ -2292,6 +2293,9 @@ containing a value of this type.
         public static final int select_dialog_singlechoice_material=0x7f04002d;
         public static final int support_simple_spinner_dropdown_item=0x7f04002e;
     }
+    public static final class menu {
+        public static final int menu=0x7f0d0000;
+    }
     public static final class mipmap {
         public static final int ic_launcher=0x7f030000;
         public static final int ic_launcher_round=0x7f030001;
@@ -2330,9 +2334,10 @@ containing a value of this type.
         public static final int abc_toolbar_collapse_description=0x7f060012;
         public static final int app_name=0x7f060021;
         public static final int enter_name_to_search=0x7f060022;
+        public static final int search=0x7f060023;
         public static final int search_menu_title=0x7f060013;
-        public static final int search_results=0x7f060023;
-        public static final int start_search=0x7f060024;
+        public static final int search_results=0x7f060024;
+        public static final int start_search=0x7f060025;
         public static final int status_bar_notification_info_overflow=0x7f060014;
     }
     public static final class style {

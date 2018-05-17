@@ -24,12 +24,13 @@ public class MainActivity extends AppCompatActivity {
         mUrlDisplayTextView = (TextView)findViewById(R.id.tv_url_display);
         mSearchResultsTextView = (TextView)findViewById(R.id.tv_github_search_results_json);
     }
-    
+
     public boolean onCreatOptionsMenu(Menu menu){
         getMenuInflater().inflate(R.menu.menu,menu);
 
         return true;
     }
+    @Override
     public boolean onOptionsItemSelected(MenuItem item){
         int itemThatWasClickedId = item.getItemId();
         if (itemThatWasClickedId == R.id.action_search){

@@ -352,9 +352,10 @@
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="app_name">Sunshine</string>
-    <string name="enter_name_to_search">Enter name to search</string>
+    <string name="enter_name_to_search">Enter a query, then click to Search</string>
+    <string name="search">Search</string>
     <string name="search_menu_title">Search</string>
-    <string name="search_results">Search Results</string>
+    <string name="search_results">Click search andd your URL will show up here!</string>
     <string name="start_search">Start Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
