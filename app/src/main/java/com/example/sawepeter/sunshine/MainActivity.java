@@ -3,6 +3,7 @@ package com.example.sawepeter.sunshine;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -26,5 +27,8 @@ public class MainActivity extends AppCompatActivity {
         getMenuInflater().inflate(R.menu.menu,menu);
 
         return true;
+    }
+    public boolean onOptionsItemSelected(MenuItem item){
+        
     }
 }
