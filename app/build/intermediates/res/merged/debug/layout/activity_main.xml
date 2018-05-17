@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/et_search_box"
         android:textSize="22sp"
-        android:hint="Enter name to search"/>
+        android:hint="@string/enter_name_to_search"/>
     
     <TextView
         android:layout_width="wrap_content"
@@ -22,6 +22,20 @@
         android:id="@+id/tv_url_display"
         android:textSize="22sp"
         android:layout_marginTop="8dp"
-        android:text="Search Results"/>
+        android:text="@string/search_results"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_github_search_results_json"
+            android:textSize="18sp"
+            android:text="@string/start_search"/>
+
+    </ScrollView>
 
 </LinearLayout>
