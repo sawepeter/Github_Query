@@ -1,5 +1,7 @@
 package com.example.sawepeter.sunshine.utilities;
 
+import java.net.URL;
+
 /**
  * Created by SAWE PETER on 5/17/2018.
  */
@@ -11,4 +13,8 @@ public class NetworkUtils {
 
     final static String PARAM_SORT = "sort";
     final static String sortBy = "stars";
+
+    public static URL buildUrl(String githubSearchQuery){
+        return null;
+    }
 }
