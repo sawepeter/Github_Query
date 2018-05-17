@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\SAWE PETER\.android\build-cache\a9f9fdf367f72b6ce42ac696edd619667bdf6cb1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\SAWE PETER\AndroidStudioProjects\Sunshine\app\build\intermediates\pre-dexed\debug\classes_6e3ab77d536683210f0916bef8059ee589703094.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.0-alpha7\constraint-layout-solver-1.0.0-alpha7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="439eeb5ffd54cbd18db0a6aea471e8356f19fc36">
+        <dex dex="C:\Users\SAWE PETER\AndroidStudioProjects\Sunshine\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.0-alpha7_5a7378b5f4e08eea4c84519ac10dc3a108e5bb51.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SAWE PETER\.android\build-cache\39c5f5bf5ba57327b9506d65027dd43bb48f6fc4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="C:\Users\SAWE PETER\AndroidStudioProjects\Sunshine\app\build\intermediates\pre-dexed\debug\classes_8e648b91439565e81b527f14bd452776691e6250.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SAWE PETER\.android\build-cache\83246925cdaeaec7071e808a1c9224eb31c77d74\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="C:\Users\SAWE PETER\AndroidStudioProjects\Sunshine\app\build\intermediates\pre-dexed\debug\classes_204947a0068b72b866d56e695c1beb001a06dd82.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SAWE PETER\.android\build-cache\c8aa41c2d4a95489335ac6fa73c037cb2a4a291c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="C:\Users\SAWE PETER\AndroidStudioProjects\Sunshine\app\build\intermediates\pre-dexed\debug\classes_10c12dfe820738879e30489b725692bd736648bc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="C:\Users\SAWE PETER\AndroidStudioProjects\Sunshine\app\build\intermediates\pre-dexed\debug\support-annotations-26.0.0-alpha1_6b7bdd64075f27ac794055998accebfc57200291.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SAWE PETER\.android\build-cache\cac41801e2ec8eb63bf6f3677517c7137e7d7894\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="C:\Users\SAWE PETER\AndroidStudioProjects\Sunshine\app\build\intermediates\pre-dexed\debug\classes_99979c1dee300bc2a1f24c2cc31c129039ceabe9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SAWE PETER\.android\build-cache\94e54e0edf8337abfc9ec5914e5074e66ec2094c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="541a2ad68dc68aa49795821f8280b7624e6a0c9b">
+        <dex dex="C:\Users\SAWE PETER\AndroidStudioProjects\Sunshine\app\build\intermediates\pre-dexed\debug\classes_e59463089486e9b2f56f32547410112cd5d4e102.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SAWE PETER\.android\build-cache\a90be5bb526d53a51fa32950f0ae45e8b0a75729\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="C:\Users\SAWE PETER\AndroidStudioProjects\Sunshine\app\build\intermediates\pre-dexed\debug\classes_b9bac5a75d84524817b31aa6f42f7b8d1fc1e1b0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SAWE PETER\.android\build-cache\36a668159e33c780fb72d7f6d8c011ea452bb1aa\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="C:\Users\SAWE PETER\AndroidStudioProjects\Sunshine\app\build\intermediates\pre-dexed\debug\classes_8bc0a80a49f39506ca9b17227bf5dde863738331.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SAWE PETER\.android\build-cache\7d98488abc225130def1aa37dfa45f3ad3e2ce23\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="C:\Users\SAWE PETER\AndroidStudioProjects\Sunshine\app\build\intermediates\pre-dexed\debug\classes_e7cdf43a1802391007d80265af2ad1f4ebee089c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SAWE PETER\.android\build-cache\b50f2c5cc4bdf15cb522ef4426f1f28222767a2a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="C:\Users\SAWE PETER\AndroidStudioProjects\Sunshine\app\build\intermediates\pre-dexed\debug\classes_d663d7a161c44d35dd2cbf9a32641e978b506a97.jar" />
+    </item>
+
+</items>
