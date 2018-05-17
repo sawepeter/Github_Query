@@ -18,6 +18,10 @@
     
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_url_display"
+        android:textSize="22sp"
+        android:layout_marginTop="8dp"
+        android:text="Search Results"/>
 
 </LinearLayout>
