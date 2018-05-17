@@ -1,8 +1,10 @@
 package com.example.sawepeter.sunshine.utilities;
 
 import java.io.IOException;
+import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.util.Scanner;
 
 /**
  * Created by SAWE PETER on 5/17/2018.
@@ -22,5 +24,11 @@ public class NetworkUtils {
 
     public static String getResponseFromHttpUrl(URL url) throws IOException{
         HttpURLConnection urlConnection = (HttpURLConnection)url.openConnection();
+        try{
+            InputStream in = urlConnection.getInputStream();
+
+            Scanner scanner = new Scanner(in);
+            scanner.useDelimiter("\\A");
+        }
     }
 }
