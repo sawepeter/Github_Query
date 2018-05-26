@@ -34,7 +34,7 @@ public class NetworkUtils {
         try{
             url = new URL(builtUri.toString());
         } catch(MalformedURLException e){
-            e.pr
+            e.printStackTrace();
         }
     }
 
