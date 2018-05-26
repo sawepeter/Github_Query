@@ -45,7 +45,6 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item){
         int itemThatWasClickedId = item.getItemId();
         if (itemThatWasClickedId == R.id.action_search){
-            Context context = MainActivity.this;
             makeGithubSearchQuery();
             return true;
         }
