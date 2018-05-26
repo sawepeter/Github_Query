@@ -1,5 +1,7 @@
 package com.example.sawepeter.sunshine.utilities;
 
+import android.net.Uri;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
@@ -21,7 +23,11 @@ public class NetworkUtils {
 
 
     public static URL buildUrl(String githubSearchQuery){
-        
+
+        Uri builtUri = Uri.parse(GITHUB_BASE_URL).buildUpon()
+                .appendQueryParameter(PARAM_QUERY,githubSearchQuery)
+                .appendQueryParameter(PARAM_SORT,sortBy)
+                .build();
     }
 
     public static String getResponseFromHttpUrl(URL url) throws IOException{
