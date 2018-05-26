@@ -36,6 +36,8 @@ public class NetworkUtils {
         } catch(MalformedURLException e){
             e.printStackTrace();
         }
+
+        return url;
     }
 
     public static String getResponseFromHttpUrl(URL url) throws IOException{
