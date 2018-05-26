@@ -25,6 +25,10 @@ public class MainActivity extends AppCompatActivity {
         mSearchResultsTextView = (TextView)findViewById(R.id.tv_github_search_results_json);
     }
 
+    public void makeGithubSearchQuery(){
+
+    }
+
     public boolean onCreatOptionsMenu(Menu menu){
         getMenuInflater().inflate(R.menu.menu,menu);
 
