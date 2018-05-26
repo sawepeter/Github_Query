@@ -9,6 +9,10 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.sawepeter.sunshine.utilities.NetworkUtils;
+
+import java.net.URL;
+
 public class MainActivity extends AppCompatActivity {
 
     private EditText mSearchBoxEditText;
@@ -26,6 +30,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void makeGithubSearchQuery(){
+        String githubQuery = mSearchBoxEditText.getText().toString();
+        URL githubSearchurl = NetworkUtils.buildUrl(githubQuery);
+        mUrlDisplayTextView.setText(githubSearchurl.toString());
 
     }
 
