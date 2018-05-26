@@ -18,6 +18,8 @@ public class NetworkUtils {
     final static String PARAM_SORT = "sort";
     final static String sortBy = "stars";
 
+    
+
     public static URL buildUrl(String githubSearchQuery){
         return null;
     }
