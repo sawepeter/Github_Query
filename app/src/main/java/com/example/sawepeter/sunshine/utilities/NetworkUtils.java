@@ -21,7 +21,7 @@ public class NetworkUtils {
 
 
     public static URL buildUrl(String githubSearchQuery){
-        return null;
+        
     }
 
     public static String getResponseFromHttpUrl(URL url) throws IOException{
