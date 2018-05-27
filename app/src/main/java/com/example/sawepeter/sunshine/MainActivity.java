@@ -51,6 +51,10 @@ public class MainActivity extends AppCompatActivity {
           @Override
           protected String doInBackground(URL... params) {
             URL searchUrl = params[0];
+              String githubSearchResults = null;
+              try {
+                  
+              }
           }
       }
 
