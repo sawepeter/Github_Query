@@ -347,7 +347,14 @@
                     "endOffset": 2059
                 },
                 "from": {
-                    "file": "C:\\Users\\SAWE PETER\\AndroidStudioProjects\\Sunshine\\app\\src\\main\\res\\values\\colors.xml"
+                    "file": "C:\\Users\\SAWE PETER\\AndroidStudioProjects\\Sunshine\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 43,
+                        "endOffset": 96
+                    }
                 }
             },
             {
@@ -2627,14 +2634,7 @@
                     "endOffset": 37319
                 },
                 "from": {
-                    "file": "C:\\Users\\SAWE PETER\\AndroidStudioProjects\\Sunshine\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 209,
-                        "endColumn": 84,
-                        "endOffset": 289
-                    }
+                    "file": "C:\\Users\\SAWE PETER\\AndroidStudioProjects\\Sunshine\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
@@ -2646,14 +2646,7 @@
                     "endOffset": 37361
                 },
                 "from": {
-                    "file": "C:\\Users\\SAWE PETER\\AndroidStudioProjects\\Sunshine\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 295,
-                        "endColumn": 41,
-                        "endOffset": 332
-                    }
+                    "file": "C:\\Users\\SAWE PETER\\AndroidStudioProjects\\Sunshine\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
@@ -2677,14 +2670,7 @@
                     "endOffset": 37503
                 },
                 "from": {
-                    "file": "C:\\Users\\SAWE PETER\\AndroidStudioProjects\\Sunshine\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 64,
-                        "endColumn": 88,
-                        "endOffset": 148
-                    }
+                    "file": "C:\\Users\\SAWE PETER\\AndroidStudioProjects\\Sunshine\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
