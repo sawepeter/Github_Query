@@ -53,8 +53,11 @@ public class MainActivity extends AppCompatActivity {
             URL searchUrl = params[0];
               String githubSearchResults = null;
               try {
-                  
+                  githubSearchResults = NetworkUtils.getResponseFromHttpUrl(searchUrl);
+              } catch(IOException e) {
+                  e.printStackTrace();
               }
+              return githubSearchResults;
           }
       }
 
