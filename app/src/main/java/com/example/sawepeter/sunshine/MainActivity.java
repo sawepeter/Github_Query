@@ -1,6 +1,7 @@
 package com.example.sawepeter.sunshine;
 
 import android.content.Context;
+import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -44,6 +45,8 @@ public class MainActivity extends AppCompatActivity {
         }
 
     }
+
+      public class GithubQueryTask extends AsyncTask<>
 
     public boolean onCreatOptionsMenu(Menu menu){
         getMenuInflater().inflate(R.menu.main,menu);
