@@ -59,6 +59,12 @@ public class MainActivity extends AppCompatActivity {
               }
               return githubSearchResults;
           }
+
+          protected void onPostExecute(String githubSearchResults) {
+              if (githubSearchResults != null && !githubSearchResults.equals("")) {
+                  mSearchResultsTextView.setText(githubSearchResults);
+              }
+          }
       }
 
     public boolean onCreatOptionsMenu(Menu menu){
