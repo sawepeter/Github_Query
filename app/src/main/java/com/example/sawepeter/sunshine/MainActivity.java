@@ -46,7 +46,13 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-      public class GithubQueryTask extends AsyncTask<>
+      public class GithubQueryTask extends AsyncTask<URL, void, String>{
+
+          @Override
+          protected String doInBackground(URL... urls) {
+              return null;
+          }
+      }
 
     public boolean onCreatOptionsMenu(Menu menu){
         getMenuInflater().inflate(R.menu.main,menu);
