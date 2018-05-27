@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-      public class GithubQueryTask extends AsyncTask<URL, void, String>{
+      public class GithubQueryTask extends AsyncTask<URL, Void, String>{
 
           @Override
           protected String doInBackground(URL... urls) {
