@@ -63,7 +63,9 @@ public class MainActivity extends AppCompatActivity {
 
     }
     private void showErrorMessage(){
+        mSearchResultsTextView.setVisibility(View.INVISIBLE);
 
+        error_msg.setVisibility(View.VISIBLE);
     }
 
       public class GithubQueryTask extends AsyncTask<URL, Void, String>{
