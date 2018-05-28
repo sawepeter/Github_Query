@@ -58,10 +58,15 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void showErrorMessage(){
-        
+
     }
 
       public class GithubQueryTask extends AsyncTask<URL, Void, String>{
+
+          @Override
+          protected void onPreExecute() {
+              super.onPreExecute();
+          }
 
           @Override
           protected String doInBackground(URL... params) {
@@ -77,6 +82,7 @@ public class MainActivity extends AppCompatActivity {
 
           protected void onPostExecute(String githubSearchResults) {
               if (githubSearchResults != null && !githubSearchResults.equals("")) {
+                  showJsonDataView();
                   mSearchResultsTextView.setText(githubSearchResults);
               }
           }
