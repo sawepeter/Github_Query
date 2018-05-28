@@ -41,6 +41,12 @@
             android:text="@string/start_search"/>
 
     </ScrollView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_error_message_display"
+            android:textSize="22sp"/>
     </FrameLayout>
 
 </LinearLayout>
