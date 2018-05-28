@@ -73,6 +73,7 @@ public class MainActivity extends AppCompatActivity {
           @Override
           protected void onPreExecute() {
               super.onPreExecute();
+              progressBar.setVisibility(View.VISIBLE);
           }
 
           @Override
