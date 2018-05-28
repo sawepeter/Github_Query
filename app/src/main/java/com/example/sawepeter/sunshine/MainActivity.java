@@ -56,14 +56,13 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void showJsonDataView(){
+    private void showJsonDataView(){
         error_msg.setVisibility(View.INVISIBLE);
 
         mSearchResultsTextView.setVisibility(View.VISIBLE);
 
     }
-
-    public void showErrorMessage(){
+    private void showErrorMessage(){
 
     }
 
