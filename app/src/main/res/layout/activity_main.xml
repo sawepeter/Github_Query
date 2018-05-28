@@ -24,6 +24,10 @@
         android:layout_marginTop="8dp"
         android:text="@string/search_results"/>
 
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -37,5 +41,6 @@
             android:text="@string/start_search"/>
 
     </ScrollView>
+    </FrameLayout>
 
 </LinearLayout>
