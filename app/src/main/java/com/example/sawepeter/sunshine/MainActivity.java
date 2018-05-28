@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.TextView;
@@ -42,6 +43,8 @@ public class MainActivity extends AppCompatActivity {
         String githubQuery = mSearchBoxEditText.getText().toString();
         URL githubSearchurl = NetworkUtils.buildUrl(githubQuery);
         mUrlDisplayTextView.setText(githubSearchurl.toString());
+        new GithubQueryTask().execute(githubSearchurl);
+
 
         String githubSearchResults = null;
         try{
@@ -54,6 +57,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void showJsonDataView(){
+        error_msg.setVisibility(View.INVISIBLE);
+
+        mSearchResultsTextView.setVisibility(View.VISIBLE);
 
     }
 
