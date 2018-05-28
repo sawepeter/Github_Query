@@ -33,6 +33,9 @@ public class MainActivity extends AppCompatActivity {
         mSearchBoxEditText = (EditText)findViewById(R.id.et_search_box);
         mUrlDisplayTextView = (TextView)findViewById(R.id.tv_url_display);
         mSearchResultsTextView = (TextView)findViewById(R.id.tv_github_search_results_json);
+
+        error_msg = (TextView)findViewById(R.id.);
+        progressBar = (ProgressBar)findViewById(R.id.);
     }
 
     private void makeGithubSearchQuery(){
