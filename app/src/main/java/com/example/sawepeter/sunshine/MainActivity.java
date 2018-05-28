@@ -34,8 +34,8 @@ public class MainActivity extends AppCompatActivity {
         mUrlDisplayTextView = (TextView)findViewById(R.id.tv_url_display);
         mSearchResultsTextView = (TextView)findViewById(R.id.tv_github_search_results_json);
 
-        error_msg = (TextView)findViewById(R.id.);
-        progressBar = (ProgressBar)findViewById(R.id.);
+        error_msg = (TextView)findViewById(R.id.tv_error_message_display);
+        progressBar = (ProgressBar)findViewById(R.id.pb_loading_indicator);
     }
 
     private void makeGithubSearchQuery(){
