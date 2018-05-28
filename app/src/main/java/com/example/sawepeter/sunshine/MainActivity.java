@@ -85,6 +85,7 @@ public class MainActivity extends AppCompatActivity {
                   showJsonDataView();
                   mSearchResultsTextView.setText(githubSearchResults);
               }
+              showErrorMessage();
           }
       }
 
