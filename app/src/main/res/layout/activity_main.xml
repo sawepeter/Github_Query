@@ -48,7 +48,8 @@
             android:id="@+id/tv_error_message_display"
             android:textSize="22sp"
             android:padding="16dp"
-            android:text="@string/error_message"/>
+            android:text="@string/error_message"
+            android:visibility="invisible" />
     </FrameLayout>
 
 </LinearLayout>
