@@ -46,7 +46,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/tv_error_message_display"
-            android:textSize="22sp"/>
+            android:textSize="22sp"
+            android:padding="16dp"
+            android:text="@string/error_message"/>
     </FrameLayout>
 
 </LinearLayout>
