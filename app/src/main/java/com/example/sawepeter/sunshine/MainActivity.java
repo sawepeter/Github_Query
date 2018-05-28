@@ -1,6 +1,6 @@
 package com.example.sawepeter.sunshine;
 
-import android.content.Context;
+
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -9,7 +9,7 @@ import android.view.MenuItem;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.TextView;
-import android.widget.Toast;
+
 
 import com.example.sawepeter.sunshine.utilities.NetworkUtils;
 
